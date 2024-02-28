@@ -91,4 +91,27 @@
     width: 27rem;
     line-height: 1.5rem;
   }
+
+  .solutions-parent , .control-parent{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .solution-fig , 
+  .solution-textArea , 
+  .control-textArea,
+  .control-fig{
+    width: 100%;
+  }
+
+  .stars-row{
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto 5rem ;
+    height: 20rem;
+    background-color: teal;
+    border-radius: .5rem;
+  }
+
+
 }
